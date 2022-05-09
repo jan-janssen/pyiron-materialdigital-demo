@@ -1,0 +1,8 @@
+channels:
+- conda-forge
+dependencies:
+- python
+- pyiron_base =0.5.7
+- jupyter
+- pip:
+   - git+https://github.com/pyiron/pyiron_base.git@dynamic_template_job
